@@ -62,6 +62,11 @@
         elif pilihan == '5':
             print("Program selesai.")
             break
+        else:
+        print("Pilihan tidak valid. Silahkan coba lagi.")
+
+    # Memulai Program
+    menu_utama()
 
 program tersebut akan menghasilkan :
 
@@ -84,5 +89,4 @@ Tambahkan menu utama untuk memudahkan interaksi pengguna dengan program, memungk
 
 
 
-    else:
-        print("Pilihan tidak valid. Silakan masukkan angka 1-5.")
+    
